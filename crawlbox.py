@@ -14,7 +14,7 @@
 #  You should have received a copy of the GNU General Public License
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
 # ----------------------------------------------------------------------
-# @author Berandal | OWL SQUAD
+# @author Abay | github.com/abaykan
 
 
 import os
@@ -48,8 +48,8 @@ __description__ = '''\
   ___________________________________________
 
   CrawlBox | v.''' + __version__ + '''
-  Author: Berandal
-  Github: https://github.com/berandal666
+  Author: Abay
+  Github: https://github.com/abaykan
   ___________________________________________
 '''
 
@@ -146,8 +146,8 @@ __description__ = '''\
   ___________________________________________
 
   CrawlBox | v.''' + __version__ + '''
-  Author: Berandal
-  Github: https://github.com/berandal666
+  Author: Abay
+  Github: https://github.com/abaykan
   ___________________________________________
 '''
 
