@@ -1,0 +1,4 @@
+tldextract
+requests
+requests_ntlm
+fake_useragent
