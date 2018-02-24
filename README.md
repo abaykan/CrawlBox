@@ -31,7 +31,7 @@ web site scan with external wordlist
 # Install
 (as root)
   <pre>
-  git clone https://github.com/chamli/crawlbox.git
+  git clone https://github.com/abaykan/crawlbox.git
   cd crawlbox/
   pip install -r requirements.txt
   python crawlbox.py -h</pre>
