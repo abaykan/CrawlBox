@@ -35,4 +35,8 @@ web site scan with external wordlist
   cd crawlbox/
   pip install -r requirements.txt
   python crawlbox.py -h</pre>
+  
 note: tested with python 2.7.6
+
+# Media Review
+- Seucurity Training Share : <a href="https://securityonline.info/crawlbox-brute-force-web-directory/">https://securityonline.info/crawlbox-brute-force-web-directory/</a>
