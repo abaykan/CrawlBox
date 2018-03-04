@@ -8,6 +8,7 @@ Easy way to brute-force web directory.<br>
 # Operating Systems Tested
 - MacOSX
 - Kali Linux
+- Ubuntu 16.04
 
 # Usage
 <pre>python crawlbox.py [-h] [-v] [-w WORDLIST] url</pre>
@@ -42,3 +43,4 @@ note: tested with python 2.7.6
 # Media Review
 - Seucurity Training Share : <a href="https://securityonline.info/crawlbox-brute-force-web-directory/">https://securityonline.info/crawlbox-brute-force-web-directory/</a>
 - PentestTools : <a href="https://pentesttoolz.com/2018/03/02/crawlbox-easy-way-to-brute-force-web-directory/">https://pentesttoolz.com/2018/03/02/crawlbox-easy-way-to-brute-force-web-directory/</a>
+- Hacking Reviews : <a href="https://www.hacking.reviews/2018/03/crawlbox-easy-way-to-brute-force-web.html">https://www.hacking.reviews/2018/03/crawlbox-easy-way-to-brute-force-web.html</a>
