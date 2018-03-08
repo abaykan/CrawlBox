@@ -1,14 +1,15 @@
 # CrawlBox | <img src="https://img.shields.io/badge/Crawl-Box-red.svg">
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub forks](https://img.shields.io/github/forks/abaykan/CrawlBox.svg)](https://github.com/abaykan/CrawlBox/network)
 [![GitHub stars](https://img.shields.io/github/stars/abaykan/CrawlBox.svg)](https://github.com/abaykan/CrawlBox/stargazers)
+[![HitCount](http://hits.dwyl.io/abaykan/crawlbox.svg)](http://hits.dwyl.io/abaykan/crawlbox)
 [![GitHub license](https://img.shields.io/github/license/abaykan/CrawlBox.svg)](https://github.com/abaykan/CrawlBox/blob/master/LICENSE)
 [![TypeScript](https://badges.frapsoft.com/typescript/love/typescript.png?v=101)](https://github.com/ellerbrock/typescript-badges/)
+<br>
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
 [![bitHound](https://img.shields.io/bithound/code/github/rexxars/sse-channel.svg)](https://github.com/abaykan/CrawlBox/)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg?style=plastic)](https://github.com/abaykan/CrawlBox/)
 [![Build Status](https://semaphoreci.com/api/v1/abaykan/crawlbox-2/branches/add-license-1/shields_badge.svg)](https://semaphoreci.com/abaykan/crawlbox-2)
-[![HitCount](http://hits.dwyl.io/abaykan/crawlbox.svg)](http://hits.dwyl.io/abaykan/crawlbox)
 
 Easy way to brute-force web directory.<br>
 
