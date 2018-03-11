@@ -57,3 +57,4 @@ note: tested with python 2.7.6
 - PentestTools : <a href="https://pentesttoolz.com/2018/03/02/crawlbox-easy-way-to-brute-force-web-directory/">https://pentesttoolz.com/2018/03/02/crawlbox-easy-way-to-brute-force-web-directory/</a>
 - Hacking Reviews : <a href="https://www.hacking.reviews/2018/03/crawlbox-easy-way-to-brute-force-web.html">https://www.hacking.reviews/2018/03/crawlbox-easy-way-to-brute-force-web.html</a>
 - KitPloit : <a href="https://www.kitploit.com/2018/03/crawlbox-easy-way-to-brute-force-web.html">https://www.kitploit.com/2018/03/crawlbox-easy-way-to-brute-force-web.html</a>
+- Haxf4rall : <a href="http://haxf4rall.com/2018/03/08/crawlbox-easy-way-to-brute-force-web-directory/">http://haxf4rall.com/2018/03/08/crawlbox-easy-way-to-brute-force-web-directory/</a>
