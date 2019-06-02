@@ -105,7 +105,7 @@ def getUnicode(value, encoding=None, noneToNull=False):
         while True:
             try:
                 return unicode(value, encoding or "utf8")
-            except UnicodeDecodeError, ex:
+            except UnicodeDecodeError as ex:
                 try:
                     return unicode(value, "utf8")
                 except:
@@ -197,6 +197,12 @@ def checkUrl(url):
     except:
         return False
 
+## make input work both in python3 and 2
+try:
+    input = raw_input
+except NameError:
+    input = input
+
 # read url
 def read(url):
 
@@ -204,7 +210,7 @@ def read(url):
     url_ok = False
     if "Maybe" in str(ret):
         w = "Would you like to change url to "+ ret.rsplit(';', 1)[1] + " (Y/n) : "
-        choice = raw_input(w)
+        choice = input(w)
         res = yes_no(choice)
         if res:
             url_ok = True
@@ -344,7 +350,7 @@ def crowl(dirs, url, args):
 
         if delay > 0:
             time.sleep(float(delay))
-            print "Sleeping for %s seconds" % str(delay)
+            print("Sleeping for %s seconds" % str(delay))
 
     write("\n\n[+]Found : %s directory" % (count))
     logfile.close()
@@ -355,7 +361,7 @@ def main():
     try:
         global list
         parser = argparse.ArgumentParser(
-            version=__version__,
+            # version=__version__,
             formatter_class=argparse.RawTextHelpFormatter,
             prog='CrawlBox',
             description=__description__,
@@ -388,6 +394,7 @@ def main():
         parser.add_argument("--proxy", dest="proxy",
                             nargs=1, type=str, help="Use a proxy to connect to the target URL", required=False)
 
+        parser.add_argument('--version', action='version', version=__version__)
 
         args = parser.parse_args()
 
@@ -429,12 +436,12 @@ def main():
 
     except KeyboardInterrupt:
 
-        print '[!] Ctrl + C detected\n[!] Exiting'
+        print('[!] Ctrl + C detected\n[!] Exiting')
         sys.exit(0)
 
     except EOFError:
 
-        print '[!] Ctrl + D detected\n[!] Exiting'
+        print('[!] Ctrl + D detected\n[!] Exiting')
         sys.exit(0)
 
 
